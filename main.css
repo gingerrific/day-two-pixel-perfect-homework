@@ -386,110 +386,51 @@ blockquote {
 
 /*bottom page pictures*/
 
+
+
 .lower-pic-container{
-	height:332px;
-	position: relative;
+	overflow: hidden;
+	width: 100%;
 
 
 }
-/*possible picture hover*/
-/*.footer-pic:hover {
+
+.footer-pic-text{
+	height: 332px;
+	width:25%;
 	float: left;
-	background-color: rgba(30,117,185, 0.77);
-	background-size: 100%;
+	position: relative;
+	background-size: 100% 332;
+	color: #083452;
+}
+
+.lower-pic-text{
+	font-size: 200%;
+	font-weight: 400;
+	font-family: 'Oswald', Helvetica, sans-serif;
+	text-transform: uppercase;
+	
 	position: absolute;
-	left:0;
-	top:0;
-
+	bottom:20px;
+	left:20px;
 	display: block;
-}*/
-
-.lower-pic-text-one{
-	font-size: 30px;
-	font-family: 'Oswald', Helvetica, sans-serif;
-	text-transform: uppercase;
-	color: #083452;
-	margin-left: 15px;
-	padding-top: 284px;
 	text-align: left;
-	z-index: 12;	
-	vertical-align: bottom;
-	bottom: 10px;
-
-}
-.bottom-pic-overlay {
-	height: 332px;
-	background-color: rgba(30,117,185, 0.77);
-	top:0;
-	left:0;
-	z-index: 10;
-	position: relative;
 }
 
-.bottom-pic-overlay:hover {
-	height: 332px;
-	background-color: rgba(30,117,185, 0.77);
-	top:0;
-	left:0;
-	z-index: 10;
-	position: relative;
-	display: none;
-}
-
-.lower-pic-text-two{
-	font-size: 30px;
-	font-family: 'Oswald', Helvetica, sans-serif;
-	text-transform: uppercase;
-	color: #083452;
-	
-	margin-left: 15px;
-	padding-top: 249px;
-	line-height: 1.35;
-	text-align: left;	
-	z-index: 12;
-
-}
-
-.footer-pic-one {
-	background-image: url(/Users/joshdate/Projects/Day-Two/beer-toast.jpg);
-	width:25%;
-	height: 332px;
-	background-size: 100% 332px;
-	background-repeat: no-repeat;
-	float: left;
-	z-index: -1;
+.lower-pic-overlay {
+	height: 100%;
+	width: 100%;
+	background: rgba(30,117,185, 0.77);
+	position: absolute;
 	
 }
 
-.footer-pic-two {
-	background-image: url(/Users/joshdate/Projects/Day-Two/beer-shots.jpg);
-	width:25%;
-	height: 332px;
-	background-size: 100% 332px;
-	background-repeat: no-repeat;
-	float: left;
-	z-index: -1;
+.lower-pic-overlay:hover{
+	background: transparent;
+	color: #fff;
 }
 
-.footer-pic-three {
-	background-image: url(/Users/joshdate/Projects/Day-Two/beer-taps.jpg);
-	width:25%;
-	height: 332px;
-	background-size: 100% 332px;
-	background-repeat: no-repeat;
-	float: left;
-	z-index: -1;
-}
 
-.footer-pic-four {
-	background-image: url(/Users/joshdate/Projects/Day-Two/beer-mugs.jpg);
-	width:25%;
-	height: 332px;
-	background-size: 100% 332px;
-	background-repeat: no-repeat;
-	float: left;
-	z-index: -1;
-}
 
 /*Footer*/
 .footer-container {
