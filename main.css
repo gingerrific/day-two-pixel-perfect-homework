@@ -51,7 +51,8 @@ body {
 	text-transform: uppercase; 
 	color: #083452;
 	font-size: 1.05em;
-	margin-top: 23px;
+	margin-top: 22px;
+
 }
 
 .header-about {
@@ -60,8 +61,9 @@ body {
 	display: inline-block;
 	padding-right: 12px;
 	position: relative;
-	top:19px;
-	font-weight: bold;
+	top:17px;
+	font-size: 17.25px;
+	/*font-weight: bold;*/
 	float: right;
 	color: #083452;
 }
@@ -72,8 +74,9 @@ body {
 	display: inline-block;
 	padding-right: 3px;
 	position: relative;
-	top:19px;
-	font-weight: bold;
+	top:17px;
+	font-size: 17.25px;
+	/*font-weight: bold;*/
 	float: right;
 	color: #083452
 }
@@ -82,7 +85,7 @@ body {
 	position: relative;
 	height: 19px;
 	width: 19px;
-	padding-top: 22px;
+	padding-top: 21px;
 	display: inline-block;
 	float: right;
 }
@@ -93,8 +96,6 @@ body {
 	font-family:'PT Sans Narrow', Helvetica, sans-serif;
 	font-size: 106px;
 	padding-top: 163px;
-	/*149.5px;*/
-	/*134px;*/
 	padding-left: 55px;
 	line-height: 78px;
 	
@@ -115,7 +116,7 @@ text-align: center;
 
 .headline-subtext p {
 	margin: 0;
-	padding-top: 11px;
+	padding-top: 10px;
 	line-height: 14px;
 	font-size: 14.5px;
 	font-family: 'Asap';
@@ -126,7 +127,7 @@ text-align: center;
 }
 /*Main content*/
 .main-text{
-	height: 1023px;
+	height: 1020px;
 	width: 1000px;
 	margin: 0 auto;	
 
@@ -142,7 +143,7 @@ text-align: center;
 	line-height: 70px;
 	font-size: 63px;
 	margin: 0 auto;
-	padding-top: 70px;
+	padding-top: 62.5px;
 	padding-left: 23px;
 	font-family: 'Oswald', Helvetica, sans-serif;
 	text-transform: uppercase;
@@ -153,7 +154,7 @@ text-align: center;
 .article-author-image {
 	position: relative;
 	float: left;
-	padding-top: 13px;
+	padding-top: 7px;
 	padding-left: 27px;
 }
 
@@ -164,11 +165,11 @@ text-align: center;
 
 .article-author-name {
 	float:left;
-	margin-top: 22px;
+	margin-top: 15px;
 	margin-left: 7px;
 	color: #106db3;
 	font-family: 'Asap';
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 11px;
 }
 
@@ -183,12 +184,17 @@ text-align: center;
 .main-body-copy {
 	height: 615px;
 	width: 616px;
-	margin-top: 77px;
+	margin-top: 63px;
 	margin-left: 27px;
 	font-family: 'Asap';
-	color: #A3B3BF;
+	color: #5e686f;
 	font-size: 16px;
 	line-height: 1.65;
+
+}
+
+.main-body-break{
+	margin-bottom: 26.5px
 }
 
 .main-body-copy span {
@@ -201,9 +207,11 @@ text-align: center;
 
 blockquote {
 	color: #106db3;
-	border-left:1px solid #E1E7EA;
+	margin-top: 20px;
 	text-transform: uppercase;
-	font-size: 34.3px;
+	font-size: 28px;
+	border-left: 2px solid #E1E7EA;
+	font-weight: 300;
 }
 
 .main-body-links{
@@ -366,7 +374,7 @@ blockquote {
 
 .after-main-text {
 	display: block;
-	height: 147px;
+	height: 146px;
 	border-top: 1px solid #E1E7EA;
 	text-align: center;
 }
@@ -396,7 +404,7 @@ blockquote {
 }
 
 .footer-pic-text{
-	height: 332px;
+	height: 331px;
 	width:25%;
 	float: left;
 	position: relative;
@@ -405,16 +413,18 @@ blockquote {
 }
 
 .lower-pic-text{
-	font-size: 200%;
+	font-size: 29.5px;
 	font-weight: 400;
 	font-family: 'Oswald', Helvetica, sans-serif;
 	text-transform: uppercase;
 	
 	position: absolute;
-	bottom:20px;
+	bottom:14px;
 	left:20px;
+	line-height: 36px;
 	display: block;
 	text-align: left;
+	padding:0;
 }
 
 .lower-pic-overlay {
