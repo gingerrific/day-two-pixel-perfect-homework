@@ -127,7 +127,7 @@ text-align: center;
 }
 /*Main content*/
 .main-text{
-	height: 1020px;
+	height: 1008px;
 	width: 1000px;
 	margin: 0 auto;	
 
@@ -135,7 +135,7 @@ text-align: center;
 /*left body*/
 .left-body {
 	width: 722px;
-	height: 1023px;
+	height: 1008px;
 	float: left;
 }
 
@@ -197,6 +197,7 @@ text-align: center;
 	margin-bottom: 26.5px
 }
 
+
 .main-body-copy span {
 	text-decoration: underline;
 }
@@ -212,12 +213,14 @@ blockquote {
 	font-size: 28px;
 	border-left: 2px solid #E1E7EA;
 	font-weight: 300;
+	padding: 4px 0;
+	margin-bottom: 30px;
 }
 
 .main-body-links{
-	width: 465px;	
+	width: 473px;	
 	height: 30px;
-	margin-top: 27px;
+	margin-top: 29px;
 	margin-left: 27px;
 }
 
@@ -239,7 +242,9 @@ blockquote {
 	position: relative;
 	float:left;
 	display: inline-block;
+	height:30px;
 }	
+
 
 .comment {
 	display: inline-block;
@@ -269,6 +274,7 @@ blockquote {
 
 #cloud {
 	margin-left: 10px;
+
 }
 
 .share {
