@@ -2,7 +2,9 @@ body {
 	margin: 0;
 	padding: 0;
 	min-width: 992px;
+
 }
+
 /*Blue image overlay*/
 .overlay {
 	background-color: rgba(30,117,185, 0.77); 
@@ -15,10 +17,10 @@ body {
 /*background image*/
 .main-background {
 	background: url(http://4.bp.blogspot.com/-a9YE0XwLR7Q/TiPPtXXo6LI/AAAAAAAAAIc/PCa6_2tSFf0/s1600/Surf_great_waves_06.jpg);
-	height: 523px;
-	
-	
+	height: 523px;	
 }
+
+
 /*banner content container*/
 .main-banner{
 	height: 523px;
@@ -375,7 +377,7 @@ blockquote {
 	font-family: 'Asap';
 	color: #A3B3BF;
 	font-size: 14px;
-	margin-top: 4px;
+	margin-top: 5px;
 	line-height: 1.75;
 	
 	
