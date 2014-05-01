@@ -294,6 +294,7 @@ blockquote {
 }
 
 /*right main body/sidebar*/
+
 .right-sidebar {
 	width: 278px;
 	height: 1023px;
@@ -306,10 +307,10 @@ blockquote {
 }
 
 .side-bar-name {
-	margin-top: 16px;
+	margin-top: 14px;
 	font-family: Asap, Helvetica, sans-serif;
 	margin-left: 90px;
-	font-size: 18px;
+	font-size: 15.5px;
 	line-height: 14px;
 	/*letter-spacing: 1.2px;*/
 	text-transform: uppercase;
@@ -322,7 +323,7 @@ blockquote {
 }
 
 .side-bar-contact ul {
-	margin-top: 9px;
+	margin-top: 5px;
 	margin-bottom: 0;
 	margin-left: 45px;
 	padding:0;
@@ -332,12 +333,12 @@ blockquote {
 	display: inline;
 	font-family: 'Asap';
 	color: #A3B3BF;
-	font-size: 14px;
+	font-size: 13px;
 	line-height: 11px;
 }
 
 .side-bar-advert {
-	margin-top: 55px;
+	margin-top: 52px;
 }
 
 .side-bar-add-link {
@@ -353,26 +354,28 @@ blockquote {
 }
 
 .side-bar-section-heading {
-	margin-top: 74px;
+	margin-top: 68.5px;
 	padding:0;
 	;
 
 }
 
-.side-bar-section-heading h3 {
+.side-bar-text-header{
 	font-weight: normal;
 	text-transform: uppercase;
 	color: #106db3;
-	margin:0 0 16px 0;
+	margin:45 0 16px 0;
+	font-size: 18px;
+
 	font-family: 'Oswald'
 }
 
 .side-bar-section-heading p {
 	
-	margin:0;
-	color: #A3B3BF;
 	font-family: 'Asap';
+	color: #A3B3BF;
 	font-size: 14px;
+	margin-top: 4px;
 	line-height: 1.75;
 	
 	
